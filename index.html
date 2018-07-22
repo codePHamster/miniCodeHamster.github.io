@@ -59,7 +59,7 @@
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
           </li>
           <li class="nav-item">
-          	<a chass="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          	<a chass="nav-link js-scroll-trigger" href="#leaveMessage">Leave a Message</a>
           </li>
         </ul>
       </div>
@@ -78,7 +78,7 @@
           </div>
           <p class="mb-5">I am an undergrad computer science student at
 	  University of California, San Diego looking for an internship or
-	  a career opportunity. </p>
+	  a career opportunity. I hold an undeniable love for nature and a dedicated, though late, passion for programming.</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://www.facebook.com/miniCodeHamster">
@@ -226,8 +226,8 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i> Fluent in Vietnamese and English</li>
+            <li>  
               <i class="fa-li fa fa-check"></i> Basic proficiency in Spanish and Japanese</li>
-
           </ul>
         </div>
       </section>
@@ -235,7 +235,8 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Asides from being a full-time student with dedicated passion for programming and a part-time tutor, I enjoy spending the remainder of my days playing sports, more specifically tennis, kayaking with friends, cooking for my family, or making digital artwork. I also hike during colder months as temperature tends to escalate during the summer in Southern California. </p>
+          <p>Asides from being a full-time student with dedicated passion for programming, I enjoy spending the remainder of my days playing tennis, kayaking with friends, or making digital artwork. I also love to hike during colder months as temperature tends to escalate during the summer in Southern California.</p>
+          <p>And when summer hits, I am full-time dutiful daughter and part-time tutor. Though away from school, I still manage time to hone my programming skills through competing on <a href="https://leetcode.com/ktp011/"> leetcode</a>.</p> 
         </div>
       </section>
 
@@ -254,7 +255,32 @@
         </div>
       </section>
 
-      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="con" -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="leaveMessage">
+      	<div class="my-auto">
+      		<h2 class="mb-5">Leave a Message</h2>
+      		<p class="lead">Please leave a quick message if you have any questions, comments, or would like to connect. All my social media and contact should be listed above in "About" section. Thank you!</p>
+      		<form id="contact-form" method="post" action="https://formspree.io/kimpham107@gmail.com" role="form">
+      			<div class="controls">
+
+      				<div class="form-group">
+      					<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name">
+      					<div class ="help-block with-errors"></div>
+      				</div>
+      				<div class="form-group">
+      					<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email (required)" required="required" data-error="Let's keep in contact!">
+      					<div class="help-block with-errors"></div>
+      				</div>
+      				<div class="form-group">
+      					<textarea id="form_message" name="message" class="form-control" placeholder="Please enter your message for me (required)" rows="4" required="required" data-error="Your message for me?"></textarea>
+      					<div class="help-block with-errors"></div>
+      				</div>
+      				<input type="submit" class="btn btn-success btn-send" value="Send!">
+
+      			</div> 
+      		</form>
+
+      	</div>
+      </section>
 
     </div>
 
