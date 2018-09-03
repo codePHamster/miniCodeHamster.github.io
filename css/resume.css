@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Open Sans', serif;*/
   padding-top: 54px;
   color: #868e96;
 }
@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
-  color: #ff80aa;
+  color: #e27689;
 }
 
 .subheading {
@@ -40,12 +40,8 @@ h2 {
   font-size: 1.35rem;
 }
 
-.list-social-icons a {
-  color: #495057;
-}
-
-.list-social-icons a:hover {
-  color: #BD5D38;
+.list-social-icons i.fa-stack-1x {
+  color: white;
 }
 
 .list-social-icons a .fa-lg {
@@ -57,12 +53,12 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #e27689;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 500;
+  /*text-transform: uppercase;*/
 }
 
 @media (min-width: 992px) {
@@ -103,6 +99,14 @@ h2 {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+  #sideNav .nav-link.active {
+    color: #e27689;
+    background-color: #080808;
+    
+  }
+  #sideNav .fa {
+    float: left;
+  }
 }
 
 section.resume-section {
@@ -132,17 +136,18 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #41484c !important;
+  /*background-color: #41484c !important;*/
+  background-color: #222729 !important;
 }
 
 .text-primary {
-  color: #ff80aa !important;
+  color: #e27689 !important;
 }
 
 a {
-  color: #ff80aa;
+  color: #e27689;
 }
 
 a:hover, a:focus, a:active {
-  color: #ff80aa; /*#824027;*/
+  color: #e27689; /*#824027;*/
 }
